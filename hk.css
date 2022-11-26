@@ -1,19 +1,26 @@
-.slider {
-    width: 95%;
+body{
+    background-color: darkslategray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
     margin: auto;
+    background-color: black;
+    width: 800px;
+    padding: 30px;
     overflow: hidden;
 }
-.slider ul {
-    display: flex;
+ul, li {
+    margin: 0;
     padding: 0;
-    width: 400%;
-
-    animation: cambio 20s infinite;
-}
-.slider li {
-    width: 100%;
+    list-style: none;
     list-style: none;
 }
-.slider img{
-    width: 100%;
+ul.slider {
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+ul.slider li {
+    position: absolute;
 }
